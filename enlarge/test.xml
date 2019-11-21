@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <ratio>2</ratio>
+    <merge>false</merge>
+    <outpath>D:/exprimental/test</outpath>
+    <calcpsnr>true</calcpsnr>
+    <item>
+        <name>000001.png</name>
+        <label>sharp</label>
+        <point>
+            <x>1100</x>
+            <y>600</y>
+            <h>180</h>
+            <w>100</w>
+        </point>
+        <path author="xuli">E:/experimental/compare/Non_uniform_deblur_xuli/GOPR0384_11_00</path>
+        <path author="deblurgan">E:/experimental/compare/deblurgan/deblur_gan_v2/GOPR0384_11_00</path>
+        <path author="srn">E:/experimental/compare/srn/GOPR0384_11_00</path>
+        <path author="zhang">E:/experimental/compare/dmphn_124/GOPR0384_11_00</path>
+        <path author="ours">E:/experimental/compare/ours_3_3/GOPR0384_11_00</path>
+        <path author="blur">E:/experimental/compare/blur/GOPR0384_11_00</path>
+        <path author="sharp">E:/experimental/compare/sharp/GOPR0384_11_00</path>
+    </item>
+    <item>
+        <name>003017.png</name>
+        <label>sharp</label>
+        <point>
+            <x>1100</x>
+            <y>600</y>
+            <h>180</h>
+            <w>100</w>
+        </point>
+        <path author="xuli">E:/experimental/compare/Non_uniform_deblur_xuli/GOPR0385_11_01</path>
+        <path author="deblurgan">E:/experimental/compare/deblurgan/deblur_gan_v2/GOPR0385_11_01</path>
+        <path author="srn">E:/experimental/compare/srn/GOPR0385_11_01</path>
+        <path author="zhang">E:/experimental/compare/dmphn_124/GOPR0385_11_01</path>
+        <path author="ours">E:/experimental/compare/ours_3_3/GOPR0385_11_01</path>
+        <path author="blur">E:/experimental/compare/blur/GOPR0385_11_01</path>
+        <path author="sharp">E:/experimental/compare/sharp/GOPR0385_11_01</path>
+    </item>
+</filename>
