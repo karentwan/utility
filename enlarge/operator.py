@@ -75,9 +75,9 @@ def _operate_item_v(item, ratio, outpath, calc):
         if not path == label_path and calc:
             psnr_val = psnr(path, label_path)
             ssim_val = ssim(path, label_path)
-            f.write('{}\tpsnr_val:{}\tssim_val:{}\n'.format(path, psnr_val, ssim_val))
+            f.write('{}/img_{}.png\tpsnr_val:{}\tssim_val:{}\n'.format(name, key, psnr_val, ssim_val))
         else:
-            f.write('{}\n'.format(path))
+            f.write('{}/img_{}.png\n'.format(name, key))
         _enlarge_v(path, item.get_all_points(), ratio, _outdir, key, img_name)
     f.close()
 
