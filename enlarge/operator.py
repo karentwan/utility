@@ -46,9 +46,10 @@ def _operate_item(item, ratio, outpath):
 
 def _enlarge_v(filepath, points, ratio, outpath, key, img_name, thickness=2):
     img = cv2.imread(filepath)
-    for p in points:
+    for index, p in enumerate(points):
         local = img[p.y:p.y + p.h, p.x:p.x + p.w, :]
         local = cv2.resize(local, (p.w * ratio, p.h * ratio))
+        cv2.rectangle(local, (0, 0), (p.w * ratio, p.h * ratio), Item.get_color(index), thickness * 2)
         _outpath = os.path.join(outpath, 'local_{}_x{}_y{}.png'.format(key, p.x, p.y))
         cv2.imwrite(_outpath, local)
     # 在原图上画矩形
