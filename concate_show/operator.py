@@ -111,6 +111,7 @@ def calculate_scale(img, local1, local2, local3=None, span1=5, span2=3):
         image[h + span1:, :, :] = local
     else:  # 添加第三个局部区域
         [h4, w4, _] = local3.shape
+        # print('')
         h4 = int(w4 * h / w)
         w4 = w
         local3 = cv2.resize(local3, (w4, h4))
@@ -121,6 +122,57 @@ def calculate_scale(img, local1, local2, local3=None, span1=5, span2=3):
     return image
 
 
+def calculate_scale_v(img, local1, local2, local3=None, span1=5, span2=3):
+    [h1, w1, _] = local1.shape
+    [h2, w2, _] = local2.shape
+    # 将local1和local2拼接在一起
+    if h1 > h2:  # 以h2为基准
+        w1 = int(h2 * w1 / h1)
+        h1 = h2
+        local1 = cv2.resize(local1, (w1, h1))
+    else:  # 以h1为基准
+        w2 = int(h1 * w2 / h2)
+        h2 = h1
+        local2 = cv2.resize(local2, (w2, h2))
+    local = np.full((h2, w1 + w2 + span2, 3), 255, np.uint8)
+    local[:, :w1, :] = local1
+    local[:, w1 + span2:, :] = local2
+    # 拼接成功, next 判断Local, img, local3谁最小就以谁为基准
+    [h1, w1, _] = img.shape
+    [h2, w2, _] = local.shape
+    min = img
+    min_w = w1
+    if w2 < min_w:
+        min = local
+        min_w = w2
+    if local3 is not None:
+        [h3, w3, _] = local3.shape
+        if w3 < min_w:
+            min = local3
+            min_w = w3
+    [h, w, _] = min.shape
+    h1 = int(w * h1 / w1)
+    w1 = w
+    img = cv2.resize(img, (w1, h1))
+    h2 = int(w * h2 / w2)
+    w2 = w
+    local = cv2.resize(local, (w2, h2))
+    if local3 is not None:
+        [h3, w3, _] = local3.shape
+        h3 = int(w * h3 / w3)
+        w3 = w
+        local3 = cv2.resize(local3, (w3, h3))
+        image = np.full((h1 + h2 + h3 + 2 * span1, w, 3), 255, np.uint8)
+        image[:h1, :, :] = img
+        image[h1 + span1: h1 + span1 + h2, :, :] = local
+        image[h1 + h2 + 2*span1:, :, :] = local3
+    else:
+        image = np.full((h1 + h2 + span1, w, 3), 255, np.uint8)
+        image[:h1, :, :] = img
+        image[h1+span1:, :, :] = local
+    return image
+
+
 def operate_item(item):
     img = cv2.imread(item.image_name)
     local_number = item.local_number
@@ -128,9 +180,9 @@ def operate_item(item):
     local2 = cv2.imread(item.local_imgs[1])
     if local_number == 3:
         local3 = cv2.imread(item.local_imgs[2])
-        image = calculate_scale(img, local1, local2, local3)
+        image = calculate_scale_v(img, local1, local2, local3)
     else:
-        image = calculate_scale(img, local1, local2)
+        image = calculate_scale_v(img, local1, local2)
     [h, w, _] = image.shape
     return image, h, w
 
