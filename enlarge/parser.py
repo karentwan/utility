@@ -42,5 +42,6 @@ def parse(xmlfile):
             elif node.nodeName == 'label':
                 label = node.firstChild.data
                 obj_item.set_label(label)
+        obj_item.generate_director_name()
         document.add_items(obj_item)
     return document

@@ -2,7 +2,7 @@
 <filename>
     <outpath>D:/experimental/test/img7.jpg</outpath>
     <item>
-        <!--添加-->
+        <!--把最大的局部区域放在最后一个位置-->
         <localnumber>3</localnumber>
         <imgname>E:/experimental/compare_experimental_local_magnify/our_four_level_compare_with_others/000002/img_blur.png</imgname>
         <localimg>E:/experimental/compare_experimental_local_magnify/our_four_level_compare_with_others/000002/local_blur_x1143_y182.png</localimg>

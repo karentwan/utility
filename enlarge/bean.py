@@ -25,6 +25,15 @@ class Item(object):
         self.points = []
         self.paths = dict()
         self.label_key = None
+        self.dir_name = None
+
+    def generate_director_name(self):
+        name = self.name.split('.')[0]
+        if self.label_key is not None:
+            dir = self.paths[self.label_key].split('/')[-1]
+            self.dir_name = '{}_{}'.format(dir, name)
+        else:
+            self.dir_name = name
 
     def set_name(self, name):
         self.name = name
