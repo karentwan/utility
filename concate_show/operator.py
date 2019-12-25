@@ -173,6 +173,10 @@ def calculate_scale_v(img, local1, local2, local3=None, span1=5, span2=3):
     return image
 
 
+def scale_img(img, w=None):
+    print('按比例缩放图片')
+
+
 def operate_item(item):
     img = cv2.imread(item.image_name)
     local_number = item.local_number
@@ -183,22 +187,24 @@ def operate_item(item):
         image = calculate_scale_v(img, local1, local2, local3)
     else:
         image = calculate_scale_v(img, local1, local2)
+    scale_img(image)  # 按比例缩放
     [h, w, _] = image.shape
     return image, h, w
 
 
-def operate(document):
+def operate(document, span=5):
     items = document.get_items()
     images = []
     h = w = 0
-    for item in items:
+    for i, item in enumerate(items):
         image, h, w = operate_item(item)
+        # cv2.imwrite(r'D:\experimental\test\concate/{}.jpg'.format(i), image)
         images.append(image)
-        # print()
-    image = np.full((2 * h + 5, 4 * w + 3 * 5, 3), 255, dtype=np.uint8)
+    # 将每个实验的效果图拼接起来
+    image = np.full((2 * h + span, 4 * w + 3 * 5, 3), 255, dtype=np.uint8)
     for i in range(2):
         for j in range(4):
-            x0 = i * h + i * 5
+            x0 = i * h + i * span
             x1 = x0 + h
             y0 = j * w + j * 5
             y1 = y0 + w
