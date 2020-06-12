@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <ratio>2</ratio>
+    <merge>false</merge>
+    <outpath>D:/experimental/test/compare_with_self_two_point</outpath>
+    <calcpsnr>true</calcpsnr>
+    <item>
+        <name>000004.png</name>
+        <label>sharp</label>
+        <point>
+            <x>168</x>
+            <y>431</y>
+            <w>192</w>
+            <h>68</h>
+        </point>
+        <point>
+            <x>564</x>
+            <y>313</y>
+            <w>62</w>
+            <h>33</h>
+        </point>
+        <path author="one-level">E:/experimental/gopro_compare/our_3_3_spp_one_level/GOPR0854_11_00</path>
+        <path author="two-level">E:/experimental/gopro_compare/ours_3_3_spp_two_level/GOPR0854_11_00</path>
+        <path author="three-level">E:/experimental/gopro_compare/ours_3_3_spp_three_level/GOPR0854_11_00</path>
+        <path author="four-level">E:/experimental/gopro_compare/our_3_3_spp_four_1248_level/GOPR0854_11_00</path>
+        <path author="three-level-no-spp">E:/experimental/gopro_compare/our_no_spp_three_level/GOPR0854_11_00</path>
+        <path author="sharp">E:/experimental/gopro_compare/sharp/GOPR0854_11_00</path>
+    </item>
+</filename>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <ratio>2</ratio>
+    <merge>false</merge>
+    <outpath>D:/experimental/supplument_384</outpath>
+    <calcpsnr>true</calcpsnr>
+    <item>
+        <name>000002.png</name>
+        <label>sharp</label>
+        <point>
+            <x>1143</x>
+            <y>182</y>
+            <w>131</w>
+            <h>72</h>
+        </point>
+        <point>
+            <x>1137</x>
+            <y>619</y>
+            <w>139</w>
+            <h>60</h>
+        </point>
+        <point>
+            <x>588</x>
+            <y>611</y>
+            <w>337</w>
+            <h>107</h>
+        </point>
+        <path author="xuli">E:/experimental/gopro_compare/Non_uniform_deblur_xuli/GOPR0384_11_00</path>
+        <path author="nah">E:/experimental/gopro_compare/2017_Nah/temp</path>
+        <path author="deblurgan">E:/experimental/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0384_11_00</path>
+        <path author="srn">E:/experimental/gopro_compare/tao_srn_tencent_2018/GOPR0384_11_00</path>
+        <path author="zhang">E:/experimental/gopro_compare/zhang_dmphn_1248/GOPR0384_11_00</path>
+        <path author="ours">E:/experimental/gopro_compare/ours_3_3_spp_three_level/GOPR0384_11_00</path>
+        <path author="blur">E:/experimental/gopro_compare/blur/GOPR0384_11_00</path>
+        <path author="sharp">E:/experimental/gopro_compare/sharp/GOPR0384_11_00</path>
+    </item>
+</filename>
