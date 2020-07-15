@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <ratio>2</ratio>
+    <merge>false</merge>
+    <outpath>D:/experimental/logs/compare_model_size_and_runtime/compare_out</outpath>
+    <calcpsnr>true</calcpsnr>
+    <item>
+        <name>000003.png</name>
+        <label>sharp</label>
+        <point>
+            <x>1100</x>
+            <y>623</y>
+            <w>180</w>
+            <h>83</h>
+        </point>
+        <point>
+            <x>1128</x>
+            <y>197</y>
+            <w>149</w>
+            <h>75</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0384_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0384_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0384_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0384_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0384_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0384_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0384_11_00</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0384_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0384_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0384_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0384_11_00</path>
+    </item>
+    <item>
+        <name>003013.png</name>
+        <label>sharp</label>
+        <point>
+            <x>859</x>
+            <y>160</y>
+            <w>118</w>
+            <h>60</h>
+        </point>
+        <point>
+            <x>984</x>
+            <y>233</y>
+            <w>85</w>
+            <h>35</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0385_11_01</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0385_11_01</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0385_11_01</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0385_11_01</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0385_11_01</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0385_11_01</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0385_11_01</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0385_11_01</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0385_11_01</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0385_11_01</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0385_11_01</path>
+    </item>
+    <item>
+        <name>000101.png</name>
+        <label>sharp</label>
+        <point>
+            <x>605</x>
+            <y>436</y>
+            <w>259</w>
+            <h>97</h>
+        </point>
+        <point>
+            <x>1137</x>
+            <y>133</y>
+            <w>105</w>
+            <h>95</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0410_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0410_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0410_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0410_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0410_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0410_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0410_11_00</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0410_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0410_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0410_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0410_11_00</path>
+    </item>
+    <item>
+        <name>000004.png</name>
+        <label>sharp</label>
+        <point>
+            <x>168</x>
+            <y>431</y>
+            <w>192</w>
+            <h>68</h>
+        </point>
+        <point>
+            <x>564</x>
+            <y>313</y>
+            <w>62</w>
+            <h>33</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0854_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0854_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0854_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0854_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0854_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0854_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0854_11_00</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0854_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0854_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0854_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0854_11_00</path>
+    </item>
+    <item>
+        <name>004002.png</name>
+        <label>sharp</label>
+        <point>
+            <x>899</x>
+            <y>174</y>
+            <w>238</w>
+            <h>145</h>
+        </point>
+        <point>
+            <x>909</x>
+            <y>574</y>
+            <w>186</w>
+            <h>141</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0384_11_05</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0384_11_05</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0384_11_05</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0384_11_05</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0384_11_05</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0384_11_05</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0384_11_05</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0384_11_05</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0384_11_05</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0384_11_05</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0384_11_05</path>
+    </item>
+    <item>
+        <name>000033.png</name>
+        <label>sharp</label>
+        <point>
+            <x>285</x>
+            <y>318</y>
+            <w>125</w>
+            <h>85</h>
+        </point>
+        <point>
+            <x>287</x>
+            <y>155</y>
+            <w>116</w>
+            <h>79</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0869_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0869_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0869_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0869_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0869_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0869_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0869_11_00</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0869_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0869_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0869_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0869_11_00</path>
+    </item>
+    <item>
+        <name>000007.png</name>
+        <label>sharp</label>
+        <point>
+            <x>492</x>
+            <y>282</y>
+            <w>131</w>
+            <h>67</h>
+        </point>
+        <point>
+            <x>276</x>
+            <y>31</y>
+            <w>73</w>
+            <h>32</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0871_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0871_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0871_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0871_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0871_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0871_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0871_11_00</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0871_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0871_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0871_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0871_11_00</path>
+    </item>
+    <item>
+        <name>000215.png</name>
+        <label>sharp</label>
+        <point>
+            <x>513</x>
+            <y>316</y>
+            <w>176</w>
+            <h>74</h>
+        </point>
+        <point>
+            <x>302</x>
+            <y>528</y>
+            <w>202</w>
+            <h>79</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0881_11_01</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0881_11_01</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0881_11_01</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0881_11_01</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0881_11_01</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0881_11_01</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0881_11_01</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0881_11_01</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0881_11_01</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0881_11_01</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0881_11_01</path>
+    </item>
+</filename>

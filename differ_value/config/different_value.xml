@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <outpath>E:/experimental/deblur/compare_result/result</outpath>
+    <item>
+        <dirname>GOPR0384_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0384_11_05</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0385_11_01</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0396_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0410_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0854_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0862_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0868_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0869_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0871_11_00</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+    <item>
+        <dirname>GOPR0881_11_01</dirname>>
+        <anchor>ours</anchor>
+        <path author="xuli">E:/experimental/deblur/compare_result/psnr/xuli</path>
+        <path author="nah">E:/experimental/deblur/compare_result/psnr/nah</path>
+        <path author="deblurgan">E:/experimental/deblur/compare_result/psnr/deblurgan</path>
+        <path author="srn">E:/experimental/deblur/compare_result/psnr/srn</path>
+        <path author="gao">E:/experimental/deblur/compare_result/psnr/gao</path>
+        <path author="DMPHN">E:/experimental/deblur/compare_result/psnr/DMPHN</path>
+        <path author="zhang">E:/experimental/deblur/compare_result/psnr/zhang</path>
+        <path author="ExtraChannel">E:/experimental/deblur/compare_result/psnr/ExtraChannel</path>
+        <path author="ours">E:/experimental/deblur/compare_result/psnr/our</path>
+    </item>
+</filename>
