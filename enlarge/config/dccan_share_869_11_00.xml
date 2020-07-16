@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <ratio>2</ratio>
+    <outpath>D:/experimental/test/compare_with_self_two_point</outpath>
+    <calcpsnr>true</calcpsnr>
+        <item>
+        <name>000033.png</name>
+        <label>sharp</label>
+        <point>
+            <x>285</x>
+            <y>318</y>
+            <w>125</w>
+            <h>85</h>
+        </point>
+        <point>
+            <x>287</x>
+            <y>155</y>
+            <w>116</w>
+            <h>79</h>
+        </point>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0869_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0869_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0869_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0869_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0869_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0869_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0869_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0869_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0869_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0869_11_00</path>
+    </item>
+</filename>

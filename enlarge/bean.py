@@ -70,7 +70,6 @@ class Document(object):
 
     def __init__(self):
         self.ratio = 2  # 放大倍数
-        self.merge = False
         self.outpath = None
         self.items = []
         self.calcpsnr = False  # 是否计算psnr

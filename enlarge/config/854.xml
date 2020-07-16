@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <filename>
     <ratio>2</ratio>
-    <merge>false</merge>
-    <outpath>D:/experimental/test/compare_with_self_two_point</outpath>
+    <outpath>D:/experimental/logs/compare_model_size_and_runtime/embed</outpath>
     <calcpsnr>true</calcpsnr>
     <item>
         <name>000004.png</name>
@@ -13,17 +12,16 @@
             <w>192</w>
             <h>68</h>
         </point>
-        <point>
-            <x>564</x>
-            <y>313</y>
-            <w>62</w>
-            <h>33</h>
-        </point>
-        <path author="one-level">E:/experimental/gopro_compare/our_3_3_spp_one_level/GOPR0854_11_00</path>
-        <path author="two-level">E:/experimental/gopro_compare/ours_3_3_spp_two_level/GOPR0854_11_00</path>
-        <path author="three-level">E:/experimental/gopro_compare/ours_3_3_spp_three_level/GOPR0854_11_00</path>
-        <path author="four-level">E:/experimental/gopro_compare/our_3_3_spp_four_1248_level/GOPR0854_11_00</path>
-        <path author="three-level-no-spp">E:/experimental/gopro_compare/our_no_spp_three_level/GOPR0854_11_00</path>
-        <path author="sharp">E:/experimental/gopro_compare/sharp/GOPR0854_11_00</path>
+        <path author="xuli">E:/experimental/DCCAN/gopro_compare/Non_uniform_deblur_xuli/GOPR0854_11_00</path>
+        <path author="nah">E:/experimental/DBCPeNet deblur result/result/Nah/GoPro/GOPR0854_11_00</path>
+        <path author="deblurgan">E:/experimental/DCCAN/gopro_compare/deblurgan/deblur_gan_recurrent/GOPR0854_11_00</path>
+        <path author="srn">E:/experimental/DCCAN/gopro_compare/tao_srn_tencent_2018/GOPR0854_11_00</path>
+        <path author="gao">E:/experimental/DCCAN/gopro_compare/gao_tencent_2019/GOPR0854_11_00</path>
+        <path author="DMPHN">E:/experimental/DCCAN/gopro_compare/zhang_dmphn_1248/GOPR0854_11_00</path>
+        <path author="zhang">E:/experimental/DBCPeNet deblur result/result/Zhang/GOPR0854_11_00</path>
+        <path author="ExtraChannel">E:/experimental/DBCPeNet deblur result/result/Our/GOPR0854_11_00</path>
+        <path author="ours">E:/experimental/dccan_share/two_level_plus_with_skip/gopro/GOPR0854_11_00</path>
+        <path author="blur">E:/experimental/DCCAN/gopro_compare/blur/GOPR0854_11_00</path>
+        <path author="sharp">E:/experimental/DCCAN/gopro_compare/sharp/GOPR0854_11_00</path>
     </item>
 </filename>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <filename>
     <ratio>2</ratio>
-    <merge>false</merge>
     <outpath>D:/experimental/supplument_384</outpath>
     <calcpsnr>true</calcpsnr>
     <item>

@@ -16,35 +16,7 @@ def ssim(img_path1, img_path2):
     return measure.compare_ssim(img1, img2, data_range=255, multichannel=True)
 
 
-def _embed_enlarge(filepath, p, ratio, color=(0, 255, 0), thickness=2):
-    img = cv2.imread(filepath)
-    local = img[p.y:p.y + p.h, p.x:p.x + p.w, :]
-    local = cv2.resize(local, (p.w * ratio, p.h * ratio))
-    # 在原图上画矩形
-    img_rec = cv2.rectangle(img, (p.x, p.y), (p.x + p.w, p.y + p.h), color, thickness)
-    # 将放大区域放在图像的右下角
-    [h, w, c] = img.shape
-    img_rec[h - p.h * ratio: h, w - p.w * ratio: w, :] = local[:, :, :]
-    return img_rec
-
-
-def _operate_item(item, ratio, outpath):
-    points = item.points
-    name = item.get_name().split('.')[0]
-    _outdir = os.path.join(outpath, name)
-    if not os.path.exists(_outdir):
-        os.makedirs(_outdir)
-    p = points[0]
-    # 处理图片
-    keys = item.keys()
-    for key in keys:
-        path = os.path.join(item.get_path(key), item.get_name())
-        img = _embed_enlarge(path, p, ratio)
-        _outpath = os.path.join(_outdir, 'img_{}.png'.format(key))
-        cv2.imwrite(_outpath, img)
-
-
-def _enlarge_v(filepath, points, ratio, outpath, key, img_name, thickness=2):
+def _enlarge(filepath, points, ratio, outpath, key, img_name, thickness=2):
     img = cv2.imread(filepath)
     for index, p in enumerate(points):
         local = img[p.y:p.y + p.h, p.x:p.x + p.w, :]
@@ -60,7 +32,7 @@ def _enlarge_v(filepath, points, ratio, outpath, key, img_name, thickness=2):
     cv2.imwrite(img_name, img)
 
 
-def _operate_item_v(item, ratio, outpath, calc):
+def _operate_item(item, ratio, outpath, calc):
     name = item.get_name().split('.')[0]
     _outdir = os.path.join(outpath, item.dir_name)
     if not os.path.exists(_outdir):
@@ -79,7 +51,7 @@ def _operate_item_v(item, ratio, outpath, calc):
             f.write('{}/img_{}.png\tpsnr_val:{}\tssim_val:{}\n'.format(name, key, psnr_val, ssim_val))
         else:
             f.write('{}/img_{}.png\n'.format(name, key))
-        _enlarge_v(path, item.get_all_points(), ratio, _outdir, key, img_name)
+        _enlarge(path, item.get_all_points(), ratio, _outdir, key, img_name)
     f.close()
 
 
@@ -87,16 +59,11 @@ def operate(document):
     print('开始对图片局部进行放大...')
     ratio = document.get_ratio()
     outpath = document.get_outpath()
-    merge = document.get_merge()
     calcpsnr = document.get_calcpsnr()
     print('图片放大比例:{}'.format(ratio))
     print('图片输出路径:{}'.format(outpath))
-    print('是否将放大的图片放置在同一个图片上:{}'.format(merge))
     print('是否计算图像的psnr:{}'.format(calcpsnr))
     # 开始处理
     for item in document.items:
-        if merge:
-            _operate_item(item, ratio, outpath)
-        else:
-            _operate_item_v(item, ratio, outpath, calcpsnr)
+        _operate_item(item, ratio, outpath, calcpsnr)
     print('处理完成')

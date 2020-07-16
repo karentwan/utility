@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <filename>
     <ratio>2</ratio>
-    <merge>false</merge>
     <outpath>D:/experimental/logs/compare_model_size_and_runtime/compare_out</outpath>
     <calcpsnr>true</calcpsnr>
     <item>

@@ -14,11 +14,9 @@ def parse(xmlfile):
     dom = xml.dom.minidom.parse(xmlfile)
     root = dom.documentElement
     document = bean.Document()  # 创建对象
-    merge = root.getElementsByTagName('merge')[0].firstChild.data
     outpath = root.getElementsByTagName('outpath')[0].firstChild.data
     ratio = root.getElementsByTagName('ratio')[0].firstChild.data
     calcpsnr = root.getElementsByTagName('calcpsnr')[0].firstChild.data
-    document.set_merge(merge)
     document.set_outpath(outpath)
     document.set_ratio(ratio)
     document.set_calcpsnr(calcpsnr)
