@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <outpath>E:\experimental\compare_result\result\pipleline2\real_img\concat_show/lyndsey</outpath>
+    <item>
+        <localnumber>2</localnumber>
+        <imgname>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/img_blur.png</imgname>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_blur_0.png</localimg>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_blur_1.png</localimg>
+        <describe>blur</describe>
+    </item>
+    <item>
+        <localnumber>2</localnumber>
+        <imgname>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/img_DMPHN.png</imgname>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_DMPHN_0.png</localimg>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_DMPHN_1.png</localimg>
+        <describe>DMPHN</describe>
+    </item>
+    <item>
+        <localnumber>2</localnumber>
+        <imgname>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/img_gao.png</imgname>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_gao_0.png</localimg>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_gao_1.png</localimg>
+        <describe>gao</describe>
+    </item>
+    <item>
+        <localnumber>2</localnumber>
+        <imgname>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/img_srn.png</imgname>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_srn_0.png</localimg>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_srn_1.png</localimg>
+        <describe>srn</describe>
+    </item>
+    <item>
+        <localnumber>2</localnumber>
+        <imgname>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/img_ours.png</imgname>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_ours_0.png</localimg>
+        <localimg>E:\experimental\compare_result\result\pipleline2\real_img\enlarge\lyndsey/local_ours_1.png</localimg>
+        <describe>our</describe>
+    </item>
+</filename>

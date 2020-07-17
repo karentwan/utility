@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filename>
+    <ratio>2</ratio>
+    <outpath>E:\experimental\compare_result\result\pipleline2\real_img\enlarge</outpath>
+    <calcpsnr>false</calcpsnr>
+    <item>
+        <name>ex_labeExt_img.png</name>
+        <ref>ours</ref>
+        <point>
+            <x>357</x>
+            <y>136</y>
+            <w>134</w>
+            <h>70</h>
+        </point>
+        <point>
+            <x>10</x>
+            <y>117</y>
+            <w>95</w>
+            <h>53</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>boat.jpg</name>
+        <ref>ours</ref>
+        <point>
+            <x>949</x>
+            <y>585</y>
+            <w>276</w>
+            <h>129</h>
+        </point>
+        <point>
+            <x>205</x>
+            <y>665</y>
+            <w>222</w>
+            <h>94</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>rdj1.png</name>
+        <ref>ours</ref>
+        <point>
+            <x>161</x>
+            <y>76</y>
+            <w>114</w>
+            <h>65</h>
+        </point>
+        <point>
+            <x>289</x>
+            <y>77</y>
+            <w>90</w>
+            <h>50</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>nudge3.png</name>
+        <ref>ours</ref>
+        <point>
+            <x>104</x>
+            <y>279</y>
+            <w>146</w>
+            <h>70</h>
+        </point>
+        <point>
+            <x>14</x>
+            <y>1</y>
+            <w>126</w>
+            <h>44</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>building.jpg</name>
+        <ref>ours</ref>
+        <point>
+            <x>247</x>
+            <y>289</y>
+            <w>143</w>
+            <h>103</h>
+        </point>
+        <point>
+            <x>679</x>
+            <y>313</y>
+            <w>130</w>
+            <h>44</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>DSC0065_small.png</name>
+        <ref>ours</ref>
+        <point>
+            <x>25</x>
+            <y>979</y>
+            <w>300</w>
+            <h>174</h>
+        </point>
+        <point>
+            <x>425</x>
+            <y>658</y>
+            <w>300</w>
+            <h>174</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>lyndsey.png</name>
+        <ref>ours</ref>
+        <point>
+            <x>71</x>
+            <y>453</y>
+            <w>145</w>
+            <h>85</h>
+        </point>
+        <point>
+            <x>65</x>
+            <y>283</y>
+            <w>145</w>
+            <h>85</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+    <item>
+        <name>testing_img.jpg</name>
+        <ref>ours</ref>
+        <point>
+            <x>84</x>
+            <y>169</y>
+            <w>72</w>
+            <h>41</h>
+        </point>
+        <point>
+            <x>84</x>
+            <y>280</y>
+            <w>73</w>
+            <h>31</h>
+        </point>
+        <path author="srn">E:\experimental\compare_result\all_real_deblur_result\SRN</path>
+        <path author="gao">E:\experimental\compare_result\all_real_deblur_result\Gao</path>
+        <path author="DMPHN">E:\experimental\compare_result\all_real_deblur_result\DMPHN1248</path>
+        <path author="ours">E:\experimental\compare_result\all_real_deblur_result\Our</path>
+        <path author="blur">E:\experimental\compare_result\all_real_deblur_result\Blur</path>
+    </item>
+</filename>

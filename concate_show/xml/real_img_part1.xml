@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<images>
+    <outpath>E:\experimental\compare_result\result\pipleline2\real_img\concat_show/cat_img_part1.jpg</outpath>
+    <width>600</width>
+    <item>
+        <path author="blur">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\boat/blur.jpg</path>
+        <path author="srn">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\boat/srn.jpg</path>
+        <path author="DMPHN">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\boat/DMPHN.jpg</path>
+        <path author="gao">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\boat/gao.jpg</path>
+        <path author="our">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\boat/our.jpg</path>
+    </item>
+    <item>
+        <path author="blur">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\building/blur.jpg</path>
+        <path author="srn">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\building/srn.jpg</path>
+        <path author="DMPHN">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\building/DMPHN.jpg</path>
+        <path author="gao">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\building/gao.jpg</path>
+        <path author="our">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\building/our.jpg</path>
+    </item>
+    <item>
+        <path author="blur">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\DSC0065_small/blur.jpg</path>
+        <path author="srn">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\DSC0065_small/srn.jpg</path>
+        <path author="DMPHN">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\DSC0065_small/DMPHN.jpg</path>
+        <path author="gao">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\DSC0065_small/gao.jpg</path>
+        <path author="our">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\DSC0065_small/our.jpg</path>
+    </item>
+    <item>
+        <path author="blur">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\ex_labeExt_img/blur.jpg</path>
+        <path author="srn">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\ex_labeExt_img/srn.jpg</path>
+        <path author="DMPHN">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\ex_labeExt_img/DMPHN.jpg</path>
+        <path author="gao">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\ex_labeExt_img/gao.jpg</path>
+        <path author="our">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\ex_labeExt_img/our.jpg</path>
+    </item>
+
+
+</images>

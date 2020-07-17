@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <filename>
-    <outpath>D:/experimental/logs/compare_model_size_and_runtime/concate_show/GOPR0854_11_00_000004</outpath>
+    <outpath>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\concate_show/GOPR0854_11_00_000004</outpath>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_blur.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_blur_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_blur_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_blur.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_blur_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_blur_1.png</localimg>
         <describe>blur</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_sharp.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_sharp_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_sharp_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_sharp.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_sharp_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_sharp_1.png</localimg>
         <describe>sharp</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_nah.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_nah_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_nah_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_nah.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_nah_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_nah_1.png</localimg>
         <describe>nah</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_DMPHN.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_DMPHN_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_DMPHN_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_DMPHN.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_DMPHN_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_DMPHN_1.png</localimg>
         <describe>DMPHN</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_gao.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_gao_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_gao_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_gao.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_gao_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_gao_1.png</localimg>
         <describe>gao</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_srn.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_srn_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_srn_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_srn.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_srn_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_srn_1.png</localimg>
         <describe>srn</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_ours.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_ours_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_ours_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_ours.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_ours_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_ours_1.png</localimg>
         <describe>our</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_zhang.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_zhang_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_zhang_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_zhang.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_zhang_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_zhang_1.png</localimg>
         <describe>zhang</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_xuli.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_xuli_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_xuli_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_xuli.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_xuli_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_xuli_1.png</localimg>
         <describe>xuli</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_deblurgan.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_deblurgan_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_deblurgan_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_deblurgan.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_deblurgan_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_deblurgan_1.png</localimg>
         <describe>deblurgan</describe>
     </item>
     <item>
         <localnumber>2</localnumber>
-        <imgname>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/img_ExtraChannel.png</imgname>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_ExtraChannel_0.png</localimg>
-        <localimg>D:/experimental/logs/compare_model_size_and_runtime/compare_out/GOPR0854_11_00_000004/local_ExtraChannel_1.png</localimg>
+        <imgname>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/img_ExtraChannel.png</imgname>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_ExtraChannel_0.png</localimg>
+        <localimg>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\enlarge_show\GOPR0854_11_00_000004/local_ExtraChannel_1.png</localimg>
         <describe>ExtraChannel</describe>
     </item>
 </filename>

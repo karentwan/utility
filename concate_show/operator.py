@@ -190,6 +190,8 @@ class Operate(object):
         return image, h, w
 
     def save_in_bulk(self, imgs, path):
+        if not os.path.exists(path):
+            os.makedirs(path)
         for key in imgs.keys():
             img_path = os.path.join(path, '{}.jpg'.format(key))
             img = imgs[key]

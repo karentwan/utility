@@ -1,8 +1,7 @@
-import enlarge.parser as parser
-import enlarge.operator as operator
+from enlarge.operator import Operator
 
 if __name__ == '__main__':
-    xmlfile = './config/854.xml'
-    document = parser.parse(xmlfile)
-    operator.operate(document)
+    xmlfile = './config/compare_dccan_share_with_others_real.xml'
+    opr = Operator(xmlfile)
+    opr.operate()
 

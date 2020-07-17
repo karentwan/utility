@@ -26,6 +26,13 @@ class Item(object):
         self.paths = dict()
         self.label_key = None
         self.dir_name = None
+        self.ref = None
+
+    def set_ref(self, ref):
+        self.ref = ref
+
+    def gt_ref(self):
+        return self.ref
 
     def generate_director_name(self):
         name = self.name.split('.')[0]
@@ -63,7 +70,9 @@ class Item(object):
         self.label_key = label
 
     def get_label(self):
-        return self.paths[self.label_key]
+        if self.label_key is not None:
+            return self.paths[self.label_key]
+        return None
 
 
 class Document(object):
