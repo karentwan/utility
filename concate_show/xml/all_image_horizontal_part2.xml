@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <images>
-    <outpath>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\concate_show/cat_img_part2.jpg</outpath>
+    <outpath>E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\concate_show/cat_img_part3.jpg</outpath>
     <width>600</width>
+<!--    <span>20</span>-->
     <!--GOPR0869_11_00-->
     <item>
         <path author="blur">E:\experimental\deblur\compare_result\compare_model_size_and_runtime\pipleline_2\concate_show/GOPR0869_11_00_000033/blur.jpg</path>

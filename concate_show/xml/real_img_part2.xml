@@ -2,6 +2,7 @@
 <images>
     <outpath>E:\experimental\compare_result\result\pipleline2\real_img\concat_show/cat_img_part2.jpg</outpath>
     <width>600</width>
+<!--    <span>20</span>-->
     <item>
         <path author="blur">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\lyndsey/blur.jpg</path>
         <path author="srn">E:\experimental\compare_result\result\pipleline2\real_img\concat_show\lyndsey/srn.jpg</path>

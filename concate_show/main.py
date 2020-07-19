@@ -21,8 +21,8 @@ def concate_img():
     将各大方法的同一张效果图拼接在一张大图里面
     :return:
     '''
-    # file = 'xml/all_image_horizontal_part2.xml'
-    file = './xml/real_img_part2.xml'
+    file = 'xml/all_image_horizontal_part2.xml'
+    # file = './xml/real_img_part2.xml'
     doc = Document()
     doc.parse(file)
     doc.save_in_whole()
